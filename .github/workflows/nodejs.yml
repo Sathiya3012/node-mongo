@@ -38,5 +38,5 @@ jobs:
       - name: Run tests
         env:
           MONGO_URL: mongodb://localhost:27017/node-mongo
-        run: npm test
+        run: npm test -- --detectOpenHandles
 
