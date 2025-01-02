@@ -12,7 +12,7 @@ describe('User API Tests', () => {
   });
 
   afterAll(async () => {
-    await mongoose.connection.db.dropDatabase();
+    // await mongoose.connection.db.dropDatabase();
     await mongoose.connection.close();
   });
 
