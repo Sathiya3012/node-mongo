@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "jest": {
-    "testEnvironment": "node"
-  },
   "scripts": {
     "test": "jest",
     "serve": "nodemon index.js"
