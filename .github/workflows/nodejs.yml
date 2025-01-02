@@ -38,4 +38,5 @@ jobs:
       - name: Run tests
         env:
           MONGO_URI: mongodb://localhost:27017
-        run: npm test
+        run: npm test -- --forceExit
+
